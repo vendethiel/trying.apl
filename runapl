@@ -1,0 +1,20 @@
+#!/usr/bin/env ruby
+# bash script to run an APL file as a script
+# using --s(ilent), no shared variable server ("SV")
+file = $*[0]
+File.exists?(file || "") || (puts "invalid program '#{file}'"; exit 1)
+
+# build the file with the terminator
+require 'tempfile'
+temp = Tempfile.new(file)
+temp.write(File.read(file))
+temp.write("\n)OFF")
+temp.close
+
+# run apl
+# - noSV to disable the shared variable server
+# - s (better --silent) to disable banner etc
+# - f(ile) to load from a file
+system "apl --noSV -s -f #{temp.path}"
+
+temp.unlink
