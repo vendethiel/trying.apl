@@ -7,14 +7,16 @@ File.exists?(file || "") || (puts "invalid program '#{file}'"; exit 1)
 # build the file with the terminator
 require 'tempfile'
 temp = Tempfile.new(file)
-temp.write(File.read(file))
-temp.write("\n)OFF")
-temp.close
+begin
+  temp.write(File.read(file))
+  temp.write("\n)OFF")
+  temp.close
 
-# run apl
-# - noSV to disable the shared variable server
-# - s (better --silent) to disable banner etc
-# - f(ile) to load from a file
-system "apl --noSV -s -f #{temp.path}"
-
-temp.unlink
+  # run apl
+  # - noSV to disable the shared variable server
+  # - s (better --silent) to disable banner etc
+  # - f(ile) to load from a file
+  system "apl --noSV -s -f #{temp.path}"
+ensure
+  temp.unlink
+end
