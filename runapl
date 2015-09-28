@@ -16,7 +16,7 @@ begin
   # - noSV to disable the shared variable server
   # - s (better --silent) to disable banner etc
   # - f(ile) to load from a file
-  system "apl --noSV -s -f #{temp.path}"
+  system "apl", "--noSV", "-s", "-f", temp.path
 ensure
   temp.unlink
 end
