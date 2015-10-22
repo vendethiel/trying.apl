@@ -1,4 +1,4 @@
-=== Table of contents
+<h1>Table of contents</h1>
 
 <table>
   <thead>
