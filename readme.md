@@ -29,7 +29,7 @@
       <td></td>
     </tr>
     <tr>
-      <td>resiz</td>
+      <td>resize</td>
       <td>up arrow</td>
       <td>↑</td>
       <td>First</td>
@@ -55,9 +55,17 @@
     <tr>
       <td>rev-rot</td>
       <td>circle stile</td>
-      <td>∊</td>
-      <td>Enlist</td>
-      <td>Membership</td>
+      <td>⌽</td>
+      <td>Reverse</td>
+      <td>Rotate</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>rev-rot-first</td>
+      <td>circle bar</td>
+      <td>⊖</td>
+      <td>Reverse first (outer)</td>
+      <td>Rotate (outer)</td>
       <td></td>
     </tr>
     <tr>
