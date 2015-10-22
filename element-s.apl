@@ -1,8 +1,7 @@
-⍝ monadic: enlist (flatten)
+⍝ monadic: enlist (flatten) ("element"s)
 ∊0 ((1 2) (3 4) (5 6))
 
-⍝ dyadic: contains
-⍝ [a] is contained in [b]
+⍝ dyadic: "element" of
 1∊1 2 3
 1 2 4∊1 2 3
 

@@ -4,6 +4,7 @@
   <thead>
     <tr>
       <td>Filename</td>
+      <td>Symbol name</td>
       <td>Symbol</td>
       <td>Monadic</td>
       <td>Dyadic</td>
@@ -12,38 +13,51 @@
   </thead>
   <tbody>
     <tr>
-      <td>flat-contains (epsilon)</td>
-      <td>∊</td>
-      <td>Enlist</td>
-      <td>Membership</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>assign (left arrow)</td>
+      <td>assign</td>
+      <td>left arrow</td>
       <td>←</td>
       <td></td>
       <td>←</td>
       <td></td>
     </tr>
     <tr>
-      <td>shaped (rho)</td>
+      <td>shaped</td>
+      <td>rho</td>
       <td>⍴</td>
       <td>Shape-of</td>
       <td>Reshape</td>
       <td></td>
     </tr>
     <tr>
-      <td>resize (up arrow)</td>
+      <td>resiz</td>
+      <td>up arrow</td>
       <td>↑</td>
+      <td>First</td>
+      <td>Take</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>ran</td>
+      <td>question mark</td>
+      <td>?</td>
       <td>Roll</td>
       <td>Deal</td>
       <td></td>
     </tr>
     <tr>
-      <td>rand (question mark)</td>
-      <td>?</td>
-      <td>Roll</td>
-      <td>Deal</td>
+      <td>element-s</td>
+      <td>epsilon</td>
+      <td>∊</td>
+      <td>Enlist</td>
+      <td>Membership</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>rev-rot</td>
+      <td>circle stile</td>
+      <td>∊</td>
+      <td>Enlist</td>
+      <td>Membership</td>
       <td></td>
     </tr>
     <tr>
@@ -54,22 +68,25 @@
       <td>function</td>
     </tr>
     <tr>
-      <td>compose [<b>Dyalog only???</b>] (jot - higher-order function)</td>
+      <td>compose [<b>Dyalog only???</b>]</td>
+      <td>jot</td>
       <td>∘</td>
       <td></td>
       <td></td>
       <td>monadic compose (e.g.: ⍴∘⍴)</td>
     </tr>
     <tr>
-      <td>inner-product (dot)</td>
+      <td>inner-product</td>
+      <td>dot</td>
       <td>.</td>
       <td></td>
       <td></td>
-      <td>inner product (e.g.: +.×)(becomes outer product when composed with jot)</td>
+      <td>inner product (e.g.: +.×)</td>
     </tr>
     <tr>
-      <td>outer-product (jot/dot - higher-order function)</td>
-      <td>∘. (monadic argument: operator)</td>
+      <td>outer-product</td>
+      <td>jot + dot</td>
+      <td>∘.</td>
       <td></td>
       <td></td>
       <td>outer product (e.g.: ∘.+)</td>
