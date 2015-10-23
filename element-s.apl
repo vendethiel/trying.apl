@@ -1,5 +1,6 @@
 ⍝ monadic: enlist (flatten) ("element"s)
-∊0 ((1 2) (3 4) (5 6))
+⍝ NOTE: also removes scalar containers
+∊0 ((1 2) (3 4) (3 3⍴⍳9))
 
 ⍝ dyadic: "element" of
 1∊1 2 3
