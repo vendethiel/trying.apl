@@ -117,6 +117,14 @@
       <td></td>
     </tr>
     <tr>
+      <td>compare</td>
+      <td>{Not,} Equal | {Greater,Lower} than{,or equal}</td>
+      <td><, >, ≤, ≥, =, ≠</td>
+      <td></td>
+      <td>lower, greater, lower-or-eq, greater-or-eq, eq, not-eq</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>grade</td>
       <td>grade {up,down}</td>
       <td>⍋ (up), ⍒ (down)</td>
