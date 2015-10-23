@@ -29,6 +29,14 @@
       <td></td>
     </tr>
     <tr>
+      <td>reduce-replicate</td>
+      <td>slash</td>
+      <td>/</td>
+      <td></td>
+      <td>Replicate</td>
+      <td>Reduce</td>
+    </tr>
+    <tr>
       <td>shaped</td>
       <td>rho</td>
       <td>⍴</td>
@@ -45,7 +53,7 @@
       <td></td>
     </tr>
     <tr>
-      <td>ran</td>
+      <td>rand</td>
       <td>question mark</td>
       <td>?</td>
       <td>Roll</td>
@@ -56,7 +64,7 @@
       <td>element-s</td>
       <td>epsilon</td>
       <td>∊</td>
-      <td>Enlist</td>
+      <td>Enlist (flat)</td>
       <td>Membership</td>
       <td></td>
     </tr>
@@ -64,8 +72,8 @@
       <td>rev-rot</td>
       <td>circle stile</td>
       <td>⌽</td>
-      <td>Reverse</td>
-      <td>Rotate</td>
+      <td>Reverse (inner)</td>
+      <td>Rotate (inner)</td>
       <td></td>
     </tr>
     <tr>
@@ -73,7 +81,7 @@
       <td>circle bar</td>
       <td>⊖</td>
       <td>Reverse first (outer)</td>
-      <td>Rotate (outer)</td>
+      <td>Rotate first (outer)</td>
       <td></td>
     </tr>
     <tr>
@@ -82,6 +90,22 @@
       <td>⊂</td>
       <td>Enclose</td>
       <td>Partitioned enclose</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>mix-take</td>
+      <td>right shoe</td>
+      <td>⊃</td>
+      <td>Mix</td>
+      <td>Pick</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>cat</td>
+      <td>comma</td>
+      <td>,</td>
+      <td>Ravel</td>
+      <td>Concatenate</td>
       <td></td>
     </tr>
     <tr>
@@ -106,7 +130,7 @@
       <td>{ <i>and</i> }</td>
       <td>⍵ <b>(monadic argument)</b></td>
       <td>⍺ <b>(dyadic argument)</b></td>
-      <td>function</td>
+      <td>Function</td>
     </tr>
     <tr>
       <td>compose [<b>Dyalog only???</b>]</td>
@@ -114,7 +138,7 @@
       <td>∘</td>
       <td></td>
       <td></td>
-      <td>monadic compose (e.g.: ⍴∘⍴)</td>
+      <td>Monadic compose (e.g.: ⍴∘⍴)</td>
     </tr>
     <tr>
       <td>inner-product</td>
@@ -122,7 +146,7 @@
       <td>.</td>
       <td></td>
       <td></td>
-      <td>inner product (e.g.: +.×)</td>
+      <td>Inner product (e.g.: +.×)</td>
     </tr>
     <tr>
       <td>outer-product</td>
@@ -130,7 +154,15 @@
       <td>∘.</td>
       <td></td>
       <td></td>
-      <td>outer product (e.g.: ∘.+)</td>
+      <td>Outer product (e.g.: ∘.+)</td>
     </tr>
   </tbody>
 </table>
+
+NOTE:
+<kbd>]boxing 8</kbd> to get the nice surrounding boxes.
+
+TODO:
+, = cat
+[08:47:45]  <klg> in APL2 (+\A)⊂B does what A⊂B does in Dyalog
+

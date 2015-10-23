@@ -4,7 +4,9 @@
 ⍝ dyadic: take (zero-pads if ⍺>⍴⍵)
 30↑⍳10
 
-⍝ DYALOG APL ONLY:
-⍝ if you do this on a multi-dimension matrix,
-⍝  it'll "take" to pad the first dimension
-⍝ 30↑(3 3⍴⍳9)
+⍝ multi-dim requires the length(α)=rank(ω) (for GNU APL)
+10 5↑(3 3⍴⍳9)
+
+⍝ you can also be explicit on which axis you act
+30↑[1](3 3⍴⍳9)
+⍝ NOTE: In Dyalog, [1] is assumed if missing for multi-dim
