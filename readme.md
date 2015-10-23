@@ -17,7 +17,15 @@
       <td>left arrow</td>
       <td>←</td>
       <td></td>
-      <td>←</td>
+      <td>Assignment</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>index</td>
+      <td>iota</td>
+      <td>⍳</td>
+      <td>Index Generator</td>
+      <td>Index of</td>
       <td></td>
     </tr>
     <tr>
@@ -69,7 +77,32 @@
       <td></td>
     </tr>
     <tr>
+      <td>enclose</td>
+      <td>left shoe</td>
+      <td>⊂</td>
+      <td>Enclose</td>
+      <td>Partitioned enclose</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>grade</td>
+      <td>grade {up,down}</td>
+      <td>⍋ (up), ⍒ (down)</td>
+      <td>Grade {Up,Down}</td>
+      <td>Dyadic Grade {Up,Down}</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>each</td>
+      <td>dieresis</td>
+      <td>¨</td>
+      <td></td>
+      <td></td>
+      <td>Each</td>
+    </tr>
+    <tr>
       <td>function (alpha and omega are the arguments)</td>
+      <td>braces</td>
       <td>{ <i>and</i> }</td>
       <td>⍵ <b>(monadic argument)</b></td>
       <td>⍺ <b>(dyadic argument)</b></td>
