@@ -12,6 +12,9 @@
 ↑(3 3⍴⍳9)
 ↑⊂(3 3⍴⍳9)
 
+⎕←'scalar extension: Wrap R in a scalar, and then creates one matrix per arg to +'
+1 ¯1+⊂3 5⍴⍳15
+
 ⍝ dyadic: partitioned enclose
 ⎕←'partitionated enclose: (note: still enclosed)'
 0 1 1 0⊂1 2 3 4
