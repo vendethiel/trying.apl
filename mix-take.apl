@@ -27,7 +27,8 @@
 
 
 ⍝ dyadic: pick (non-enclosed indexing)
-
+⍝ gives subarray of the array, regardless of its content
+⍝   (much like first, but with a specific index)
 2⊃(2 2)(2 2⍴3)
 ⍝ ┌→──┐
 ⍝ ↓3 3│
