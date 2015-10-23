@@ -109,6 +109,14 @@
       <td></td>
     </tr>
     <tr>
+      <td>logic</td>
+      <td>Logical {N,}{and,or}</td>
+      <td>∧, ∨, ⍲, ⍱</td>
+      <td></td>
+      <td>and, or, nand, nor</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>grade</td>
       <td>grade {up,down}</td>
       <td>⍋ (up), ⍒ (down)</td>
