@@ -61,6 +61,14 @@
       <td></td>
     </tr>
     <tr>
+      <td>commute</td>
+      <td>tilde dieresis</td>
+      <td>⍨</td>
+      <td></td>
+      <td></td>
+      <td>Commute</td>
+    </tr>
+    <tr>
       <td>element-s</td>
       <td>epsilon</td>
       <td>∊</td>
@@ -155,6 +163,30 @@
       <td></td>
       <td></td>
       <td>Monadic compose (e.g.: ⍴∘⍴)</td>
+    </tr>
+    <tr>
+      <td>tally-notmatch</td>
+      <td>equal underbash slash</td>
+      <td>≢</td>
+      <td>Tally</td>
+      <td>Not-match</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>statement</td>
+      <td>diamond</td>
+      <td>⋄</td>
+      <td></td>
+      <td>Statement separator</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>short-circuit (Dyalog only)</td>
+      <td>colon</td>
+      <td>:</td>
+      <td></td>
+      <td>returns ⍵ from ∇ if ⍺=1</td>
+      <td></td>
     </tr>
     <tr>
       <td>inner-product</td>
