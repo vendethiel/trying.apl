@@ -165,6 +165,14 @@
       <td>Monadic compose (e.g.: ⍴∘⍴)</td>
     </tr>
     <tr>
+      <td>depth-match</td>
+      <td>equal underbash</td>
+      <td>≡</td>
+      <td>Depth</td>
+      <td>Match</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>tally-notmatch</td>
       <td>equal underbash slash</td>
       <td>≢</td>

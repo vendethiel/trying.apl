@@ -2,4 +2,4 @@
 ≢'hey'
 
 ⍝ dyadic: not-match
-3≢≢⍳3 ⍝ 0, because they match
+'hey'≢'h','e','y' ⍝ 0 (`not 1`), because they match
