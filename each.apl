@@ -11,7 +11,13 @@
 ↑¨2 3⍴⍳6
 ⍝ see cat to see how to enclose each row of the above
 
+⍝ apply a function (well, obviously)
+{⍵[2 1]}¨(1 2 3)(4 5 6)
+
+⍝ Rotate inside each matrix, instead of rotate the order of the matrices
+⌽¨(1 2)(3 4)
+
 ⎕←'scalar extension'
 ]boxing 8
-⍝ Each is needed here, because ⌽ acts on the whole array
+⍝ Each/scalar needed here, because ⌽ acts on the whole array
 1 0 ¯1 ⌽¨⊂3 5⍴⍳15

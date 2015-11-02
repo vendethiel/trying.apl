@@ -6,7 +6,7 @@ File.exists?(file || "") || (puts "invalid program '#{file}'"; exit 1)
 
 # build the file with the terminator
 require 'tempfile'
-temp = Tempfile.new(file)
+temp = Tempfile.new(file.gsub(/[\/.]/, '----'))
 begin
   temp.write(File.read(file))
   temp.write("\n)OFF")
