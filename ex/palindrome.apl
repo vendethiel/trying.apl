@@ -6,14 +6,12 @@
 ⍝    ALLOW←'abcdefghijklmnopqrstuvwxyz'
 ⍝    F←{⍵≡⌽⍵⊣⍵←(⍵∊ALLOW)/⍵}
 
-AL_LOW←⎕UCS96+⍳26
-AL_HIGH←⎕UCS64+⍳26
-AL←AL_LOW,AL_HIGH
+AL←(AL_LOW←⎕UCS96+⍳26),(AL_HIGH←⎕UCS64+⍳26)
 LOW←{(∊2/⊂AL_LOW)[AL⍳⍵]}
 F←{⍵≡⌽⍵⊣⍵←LOW (⍵∊AL)/⍵}
 
 ⍝ tests
 F 'lol'
 F 'h e y'
-F 'BB oBb'
+F 'BB ob  !!b'
 
