@@ -6,9 +6,9 @@
 ⍝    ALLOW←'abcdefghijklmnopqrstuvwxyz'
 ⍝    F←{⍵≡⌽⍵⊣⍵←(⍵∊ALLOW)/⍵}
 
-AL←(AL_LOW←⎕UCS96+⍳26),(AL_HIGH←⎕UCS64+⍳26)
-LOW←{(∊2/⊂AL_LOW)[AL⍳⍵]}
-F←{⍵≡⌽⍵⊣⍵←LOW (⍵∊AL)/⍵}
+AL←∊((AL_LOW AL_HIGH)←⎕UCS¨(96 64+⊂⍳26))
+LC←{(∊2/⊂AL_LOW)[AL⍳⍵]}
+F←{⍵≡⌽⍵⊣⍵←LC (⍵∊AL)/⍵}
 
 ⍝ tests
 F 'lol'
