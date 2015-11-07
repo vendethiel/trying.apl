@@ -1,5 +1,7 @@
 ⍝ old version without tally
 ⍝ F←{(≢⍵)=+/⍵=⌽⍵}
-F←{⍵≡⌽⍵}
-F 'hey'
-F 'bob'
+ALLOW←'abcdefghijklmnopqrstuvwxyz'
+F←{⍵≡⌽⍵⊣(⍵←(⍵∊ALLOW)/⍵)} ⍝ dyalog reads right-to-left, so assign on the right
+F 'h e y'
+F 'b ob'
+
