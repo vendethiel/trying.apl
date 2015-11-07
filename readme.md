@@ -101,6 +101,14 @@
       <td></td>
     </tr>
     <tr>
+      <td>not-without</td>
+      <td>tilde</td>
+      <td>~</td>
+      <td>Not</td>
+      <td>Without</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>mix-take</td>
       <td>right shoe</td>
       <td>⊃</td>
@@ -219,6 +227,5 @@ NOTE:
 <kbd>]boxing 8</kbd> to get the nice surrounding boxes.
 
 TODO:
-, = cat
 [08:47:45]  <klg> in APL2 (+\A)⊂B does what A⊂B does in Dyalog
 
