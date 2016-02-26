@@ -17,7 +17,13 @@
 ⍝ Rotate inside each matrix, instead of rotate the order of the matrices
 ⌽¨(1 2)(3 4)
 
+⍝ Basically, dispatches the right each side every time
+⍝ (so the shape must match).
+⎕←'visualization'
+F←{⍵×⍺}
+¯1 0 1F¨⍳3 ⍝ this means (¯1F1)(0F2)(1F3)
+
 ⎕←'scalar extension'
 ]boxing 8
-⍝ Each/scalar needed here, because ⌽ acts on the whole array
-1 0 ¯1 ⌽¨⊂3 5⍴⍳15
+1 0 ¯1 ⌽¨⊂⍳9
+⍝ this means (1⌽⊂⍳9)(0⌽⊂⍳9)(¯1⌽⊂⍳9)
