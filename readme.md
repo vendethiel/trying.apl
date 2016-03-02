@@ -1,6 +1,6 @@
 <h1>Table of contents</h1>
 
-<h3>Evolution level: <i>2</i></h3>
+<h3>Evolution level: <i>2</i></h3> (TODO)
 
 <table>
   <thead>
@@ -167,8 +167,8 @@
       <td>Function</td>
     </tr>
     <tr>
-      <td>compose [<b>Dyalog only???</b>]</td>
-      <td>jot</td>
+      <td>compose</td>
+      <td>jot (TODO)</td>
       <td>∘</td>
       <td></td>
       <td></td>
@@ -199,7 +199,7 @@
       <td></td>
     </tr>
     <tr>
-      <td>short-circuit (Dyalog only)</td>
+      <td>short-circuit</td>
       <td>colon</td>
       <td>:</td>
       <td></td>
@@ -224,10 +224,3 @@
     </tr>
   </tbody>
 </table>
-
-NOTE:
-<kbd>]boxing 8</kbd> to get the nice surrounding boxes.
-
-TODO:
-[08:47:45]  <klg> in APL2 (+\A)⊂B does what A⊂B does in Dyalog
-
