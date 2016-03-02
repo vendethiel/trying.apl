@@ -11,12 +11,16 @@ A←⍳10
 ⎕←'Vector:'
 A
 ⎕←'Sum:'
-(+/A)
++/A
 ⎕←'Product:'
-(×/A)
+×/A
 
 ⍝ distributed per rows:
 +/2 3⍴⍳6 ⍝ cf down below
+
+⍝ it doesn't do anything on a scalar:
++/1
++/⊂⍬
 
 ⎕←'Enclosed'
 ⍝ NOTE: on enclosed values, `/` means "apply"

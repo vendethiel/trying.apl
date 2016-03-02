@@ -15,3 +15,5 @@
 ⍝ no precedence in APL, and everything is right-associative
 ⍝ no parens would mean "⍳(10∘.×⍳10)" (and thus an error)
 ⍝  (either a RANK ERROR for a matrix, or a LENGTH ERROR for multiple values)
+
+(⍳10)∘.≠(⍳10)

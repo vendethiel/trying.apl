@@ -1,6 +1,6 @@
 <h1>Table of contents</h1>
 
-<h3>Evolution level: <i>2</i></h3> (TODO)
+<h3>Evolution level: <i>1</i></h3>
 
 <table>
   <thead>
@@ -47,10 +47,10 @@
       <td></td>
     </tr>
     <tr>
-      <td>resize</td>
+      <td>mix-take</td>
       <td>up arrow</td>
       <td>↑</td>
-      <td>First</td>
+      <td>Mix</td>
       <td>Take</td>
       <td></td>
     </tr>
@@ -111,10 +111,10 @@
       <td></td>
     </tr>
     <tr>
-      <td>mix-take</td>
+      <td>first-pick</td>
       <td>right shoe</td>
       <td>⊃</td>
-      <td>Mix</td>
+      <td>First</td>
       <td>Pick</td>
       <td></td>
     </tr>
@@ -168,11 +168,11 @@
     </tr>
     <tr>
       <td>compose</td>
-      <td>jot (TODO)</td>
+      <td>jot</td>
       <td>∘</td>
       <td></td>
       <td></td>
-      <td>Monadic compose (e.g.: ⍴∘⍴)</td>
+      <td>Monadic compose (e.g.: ⍴∘⍴) / Currying</td>
     </tr>
     <tr>
       <td>depth-match</td>

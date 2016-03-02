@@ -1,3 +1,3 @@
-⍝ operator: inverts the arguments of its αα (doubled because operator)
+⍝ operator: inverts the arguments of its αα
 3-⍨4
 1 2,⍨3 4

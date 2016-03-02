@@ -17,6 +17,7 @@ begin
   # - s (better --silent) to disable banner etc
   # - f(ile) to load from a file
   system "cat #{temp.path} | dyalog 2>/dev/null"
+  File.delete 'CONTINUE' # remove dyalog's workspace
 ensure
   temp.unlink
 end

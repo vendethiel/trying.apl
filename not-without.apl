@@ -6,5 +6,5 @@
 
 'abc'~'a'
 ⍝ NOTE: if you want to remove *strings* (not chars),
-⍝       you'll need to provide more than one arg
+⍝       you'll need to provide more than one arg, to get a matrix.
 'abc' 'def'~'abc' ''

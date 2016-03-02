@@ -1,8 +1,7 @@
-]boxing 8 ⍝ nice displaying boxes
-
 ⍝ monadic: mix
 ⍝ somewhat the opposite of enclose
 
+⎕←'Matrix'
 (1 2 3)(4 5 6)
 ⍝ ┌→──────────────┐
 ⍝ │┌→────┐ ┌→────┐│
@@ -10,12 +9,14 @@
 ⍝ │└─────┘ └─────┘│
 ⍝ └∊──────────────┘
 
-⊃(1 2 3)(4 5 6) ⍝ "mix" the two enclosed
+⎕←'Mixed:'
+↑(1 2 3)(4 5 6) ⍝ "mix" the two enclosed
 ⍝ ┌→────┐
 ⍝ ↓1 2 3│
 ⍝ │4 5 6│
 ⍝ └─────┘
 
+⎕←'using rho:'
 2 3⍴⍳6 ⍝ which gives the same as this
 ⍝ ┌→────┐
 ⍝ ↓1 2 3│
@@ -24,18 +25,12 @@
 
 ⍝ see cat to go the other way (ρ to enclosed)
 
+⍝ dyadic: take (zero-pads if needed)
+⎕←'take'
+30↑⍳10
 
+⍝ multi-dim (requires the ⍴(α)=⍴⍴(ω))
+10 5↑(3 3⍴⍳9)
 
-⍝ dyadic: pick (non-enclosed indexing)
-⍝ gives subarray of the array, regardless of its content
-⍝   (much like first, but with a specific index)
-2⊃(2 2)(2 2⍴3)
-⍝ ┌→──┐
-⍝ ↓3 3│
-⍝ │3 3│
-⍝ └───┘
-⍝ as opposed to indexing:
-
-((2 2)(2 2⍴3))[2]
-⍝ indexing takes a slice of an array (same behavior for `[2]` and `[1 2]`,
-⍝  and doesn't disclose, doesn't matter that the element is an enclosed array)
+⍝ you can also be explicit on which axis you act ([1] is implicit)
+10↑[1](3 3⍴⍳9)

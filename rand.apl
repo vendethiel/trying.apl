@@ -8,5 +8,5 @@
 ?25⍴20
 
 ⍝ dyadic: deal
-⍝ picks ⍺x 1d⍵
+⍝ same as ?⍵⍴⍺
 3?1000
