@@ -4,7 +4,7 @@
 
 ⍝ IMPORTANT!
 ⍝ (1 2 3) (4 5 6) is *enclosed* (see enclose)
-⍝ see mix-pick to get the same result as
+⍝ see mix-take to get the same result as
 ⍝     2 3⍴⍳6
 
 ⍝ shape of

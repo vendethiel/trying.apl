@@ -1,6 +1,6 @@
 ⍝ applies ⍺ operator to "each" of its *ENCLOSED* ⍵
 ⍝ NOTE: to understand what's going on with these literals,
-⍝       see the explanation in shaped, and see mix-pick.apl
+⍝       see the explanation in shaped, and see mix-take.apl
 ↑¨ (1 2 3) (4 5 6) ⍝ first of (1 2 3), first of (4 5 6)
 
 ⍝ note that each's argument, `/`, also has an argument (`+`)
