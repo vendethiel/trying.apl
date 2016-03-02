@@ -167,22 +167,6 @@
       <td>Function</td>
     </tr>
     <tr>
-      <td>compose [<b>Dyalog only???</b>]</td>
-      <td>jot</td>
-      <td>∘</td>
-      <td></td>
-      <td></td>
-      <td>Monadic compose (e.g.: ⍴∘⍴)</td>
-    </tr>
-    <tr>
-      <td>depth-match</td>
-      <td>equal underbash</td>
-      <td>≡</td>
-      <td>Depth</td>
-      <td>Match</td>
-      <td></td>
-    </tr>
-    <tr>
       <td>tally-notmatch</td>
       <td>equal underbash slash</td>
       <td>≢</td>
@@ -196,14 +180,6 @@
       <td>⋄</td>
       <td></td>
       <td>Statement separator</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>short-circuit (Dyalog only)</td>
-      <td>colon</td>
-      <td>:</td>
-      <td></td>
-      <td>returns ⍵ from ∇ if ⍺=1</td>
       <td></td>
     </tr>
     <tr>
@@ -227,7 +203,3 @@
 
 NOTE:
 <kbd>]boxing 8</kbd> to get the nice surrounding boxes.
-
-TODO:
-[08:47:45]  <klg> in APL2 (+\A)⊂B does what A⊂B does in Dyalog
-
