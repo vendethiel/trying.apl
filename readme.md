@@ -207,6 +207,13 @@
       <td>Monadic compose (e.g.: ⍴∘⍴) / Currying</td>
     </tr>
     <tr>
+      <td>pointfree (implicit composition)</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    <tr>
       <td>inner-product</td>
       <td>dot</td>
       <td>.</td>
