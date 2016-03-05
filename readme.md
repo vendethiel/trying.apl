@@ -55,6 +55,22 @@
       <td></td>
     </tr>
     <tr>
+      <td>enclose</td>
+      <td>left shoe</td>
+      <td>⊂</td>
+      <td>Enclose</td>
+      <td>Partitioned enclose</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>first-pick</td>
+      <td>right shoe</td>
+      <td>⊃</td>
+      <td>First</td>
+      <td>Pick</td>
+      <td></td>
+    </tr>
+    <tr>
       <td>rand</td>
       <td>question mark</td>
       <td>?</td>
@@ -95,27 +111,11 @@
       <td></td>
     </tr>
     <tr>
-      <td>enclose</td>
-      <td>left shoe</td>
-      <td>⊂</td>
-      <td>Enclose</td>
-      <td>Partitioned enclose</td>
-      <td></td>
-    </tr>
-    <tr>
       <td>not-without</td>
       <td>tilde</td>
       <td>~</td>
       <td>Not</td>
       <td>Without</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>first-pick</td>
-      <td>right shoe</td>
-      <td>⊃</td>
-      <td>First</td>
-      <td>Pick</td>
       <td></td>
     </tr>
     <tr>
@@ -159,20 +159,12 @@
       <td>Each</td>
     </tr>
     <tr>
-      <td>function (alpha and omega are the arguments)</td>
+      <td>function</td>
       <td>braces</td>
       <td>{ <i>and</i> }</td>
-      <td>⍵ <b>(monadic argument)</b></td>
-      <td>⍺ <b>(dyadic argument)</b></td>
+      <td>⍵ <b>(monadic argument)</b> / ⍵⍵ <b>(function monadic argument)</b></td>
+      <td>⍺ <b>(dyadic argument)</b> / ⍺⍺ <b>(function dyadic argument)</b></td>
       <td>Function</td>
-    </tr>
-    <tr>
-      <td>compose</td>
-      <td>jot</td>
-      <td>∘</td>
-      <td></td>
-      <td></td>
-      <td>Monadic compose (e.g.: ⍴∘⍴) / Currying</td>
     </tr>
     <tr>
       <td>depth-match</td>
@@ -205,6 +197,14 @@
       <td></td>
       <td>returns ⍵ from ∇ if ⍺=1</td>
       <td></td>
+    </tr>
+    <tr>
+      <td>compose</td>
+      <td>jot</td>
+      <td>∘</td>
+      <td></td>
+      <td></td>
+      <td>Monadic compose (e.g.: ⍴∘⍴) / Currying</td>
     </tr>
     <tr>
       <td>inner-product</td>
