@@ -1,5 +1,5 @@
 ⍝ monadic: mix
-⍝ somewhat the opposite of enclose
+⍝ somewhat the opposite of split (both related to enclose)
 
 ⎕←'Matrix'
 (1 2 3)(4 5 6)
@@ -34,3 +34,6 @@
 
 ⍝ you can also be explicit on which axis you act ([1] is implicit)
 10↑[1](3 3⍴⍳9)
+
+⍝ if ⍺ is negative, it'll "take" starting from the end
+¯2↑1 2 3 4 5
