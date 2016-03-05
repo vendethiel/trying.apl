@@ -1,6 +1,6 @@
 ⍝ dyadic higher-order operator: rank
 ⍝ changes the rank of the operator
-⍝ ⍵ is a 2-elements vector: rank on the left side, rank on the first side
+⍝ ⍵⍵ is a 2-elements vector: rank on the left side, rank on the first side
 
 ⍝ this wouldn't work:
 '10 20 30 40+2 2⍴100 200 300 400' ⍝ rank error
