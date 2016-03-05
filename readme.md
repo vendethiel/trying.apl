@@ -222,5 +222,12 @@
       <td></td>
       <td>Outer product (e.g.: ∘.+)</td>
     </tr>
+    <tr>
+      <td>rank</td>
+      <td>jot diaerisis</td>
+      <td>⍤</td>
+      <td><b>(⍵ is the new rank of the operator)</b></td>
+      <td>changes the rank of ⍺⍺</td>
+    </tr>
   </tbody>
 </table>
