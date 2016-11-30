@@ -1,12 +1,11 @@
-{(⎕ucs 13)∘{1↓⊃,/⍺,¨⍵}{⍵⍴'#'}¨⍳⍵}
+{{,/(⎕ucs 13),⍨¨⍵}{⍵⍴'#'}¨⍳⍵}
 
 
 
-{                               } ⍝ A function (argument: ⍵)
-                             ¨⍳⍵  ⍝ For each number n from 1 to ⍵
-                      {⍵⍴'#'}     ⍝ Repeat '#' n times
- (⎕ucs 13)∘{         }            ⍝ Call it with the right argument ⍺: newline.
-                 ⍺,¨⍵             ⍝ Prepend a newline to each string of '#'s
-              ⊃,/                 ⍝ Join them and decontainerize
-            1↓                    ⍝ Remove the very first newline
-
+{                           } ⍝ A function (argument: ⍵)
+                         ¨⍳⍵  ⍝ For each number n from 1 to ⍵
+                  {⍵⍴'#'}     ⍝ Repeat '#' n times
+             ,⍨               ⍝ Append (reversed prepend)
+ {             ¨⍵}            ⍝ To each '#' string
+    (⎕ucs 13)                 ⍝ A newline
+  ,/                          ⍝ Flatten
