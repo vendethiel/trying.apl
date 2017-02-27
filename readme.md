@@ -236,5 +236,13 @@
       <td><b>(⍵ is the new rank of the operator)</b></td>
       <td>changes the rank of ⍺⍺</td>
     </tr>
+    <tr>
+      <td>variant</td>
+      <td>quad colon</td>
+      <td>⍠</td>
+      <td>Sets option value</td>
+      <td></td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
