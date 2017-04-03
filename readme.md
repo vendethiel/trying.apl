@@ -1,3 +1,8 @@
+# Trying APL
+
+This repository contains a handful of basic APL snippets, demonstrating each and every operator's purpose and behavior.
+The `ex/` directory contains a few examples, mostly from Programming Puzzles & Code Golf Stack Exchange.
+
 <h1>Table of contents</h1>
 
 <h3>Evolution level: <i>1</i></h3>
