@@ -6,7 +6,6 @@
 
 {(⍵>0)/⍵}{                               }
                                    ⊂' ',⍵ ⍝ prepend a space so that everything has a leading char
-              
                       ⎕UCS 96+⍳26         ⍝ generate the alphabet
                    ~⍵∊                    ⍝ find anything that's NOT in the alphabet
                 (1,               )       ⍝ prepend 1 so that the first word is used as well
