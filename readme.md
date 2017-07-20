@@ -249,5 +249,13 @@ The `ex/` directory contains a few examples, mostly from Programming Puzzles & C
       <td></td>
       <td></td>
     </tr>
+    <tr>
+      <td>key</td>
+      <td>quad equal</td>
+      <td>⌸</td>
+      <td>Returns an scalar vector (key, positions for the key)</td>
+      <td></td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
