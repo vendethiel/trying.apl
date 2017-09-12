@@ -1,4 +1,4 @@
-⍝ http://codegolf.stackexchange.com/questions/69155/base-conversion-with-strings/76258#76258
+⍝ from http://codegolf.stackexchange.com/a/76258
 
 {⍺⍺[⍵⍵⍳⍵]}
 
