@@ -8,4 +8,4 @@
 ⍝ NOTE: if you want to remove *strings* (nested character arrays),
 ⍝       you'll need to enclose the character array you want to remove.
 ⍝       In Dyalog, juxtaposing consecutive arrays is called "stranding" and produces a nested vector of vectors.
-'abc' 'def''~⊂'abc' ⍝ The resulting vector is nested with a depth of 2'
+'abc' 'def'~⊂'abc' ⍝ The resulting vector is nested with a depth of 2'
